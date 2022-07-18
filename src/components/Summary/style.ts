@@ -31,5 +31,10 @@ export const Container = styled.div`
         font-weight: normal;
         line-height: 3rem;
     }
+
+    @media(max-width: 800px) { 
+        grid-template-columns: 1fr;
+
+    }
     
 `
